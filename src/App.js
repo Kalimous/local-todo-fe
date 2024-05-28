@@ -6,14 +6,13 @@ import TodoPage from "./pages/TodoPage";
 import RegisterPage from "./pages/RegisterPage";
 
 function App() {
-  return (
-    <Routes>
-      <Route path="/" element={<TodoPage />} />
-      <Route path="/register" element={<RegisterPage />} />
-
-      <Route path="/login" element={<LoginPage />} />
-    </Routes>
-  );
+    return (
+        <Routes>
+            <Route path="/" element={<TodoPage />} />
+            <Route path="/register" element={<RegisterPage />} />
+            <Route path="/login" element={<LoginPage />} />
+        </Routes>
+    );
 }
 
 export default App;
