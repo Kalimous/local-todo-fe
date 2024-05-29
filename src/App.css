@@ -3,6 +3,15 @@ body{
   background-color: aliceblue !important; 
 }
 
+.logoutButton {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.logoutButton:hover {
+  color: red;
+}
+
 
 
 .todo-item{
